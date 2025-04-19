@@ -19,7 +19,7 @@ const Hero = () => {
           <div class="home-icons">
         <a href="https://github.com/Sathya-1701" id="Github"><i class='bx bxl-github'></i></a>        
         <a href="https://www.instagram.com/sathya.mrp3" id="insta"><i class='bx bxl-instagram' ></i></a>        
-        <a href="https://www.linkedin.com/in/sathya-m-01a259358/" id="linkedin"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.linkedin.com/in/sathya-m1701/" id="linkedin"><i class='bx bxl-linkedin'></i></a>
           
       </div>
             <div className="hero-resume">
