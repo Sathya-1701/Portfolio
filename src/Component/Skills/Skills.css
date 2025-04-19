@@ -1,0 +1,132 @@
+#skill {
+  height: 600px;
+  
+}
+
+#skill h1 {
+  display: block;
+  background: linear-gradient(120deg, #ff6a00, #ee0979);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 60px;
+  /* margin-left: 10px; */
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.skill_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  width: 1200px;
+  margin-left: 150px;
+  height: 400px;
+}
+
+.skill_frontend h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.skill_backend h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skill_container > div {
+  background: #050516;
+  padding: 2.4rem 5em;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.skill_container > div:hover {
+  transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(228, 221, 221, 0.3);
+}
+
+.skill_container > div h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.skill_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.skill_detail {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  margin-top: -2px;
+  color: #ddced586;
+  font-size: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+  #skill {
+    padding: 2rem 1rem;
+    display: block;
+    min-height: auto;
+    margin-bottom: 200px;
+  }
+
+  #skill h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .skill_container {
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .skill_container > div h2 {
+    font-size: 30px;
+  }
+
+  .skill_detail h3 {
+    font-size: 18px;
+  }
+}
+  @media screen and (max-width: 1024px) {
+    #skill {
+      padding: 2rem 1rem;
+      display: block;
+      min-height: auto;
+      margin-bottom: 200px;
+    }
+  
+    #skill h1 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+  
+    .skill_container {
+      width: 100%;
+      margin: 0 auto;
+      grid-template-columns: 1fr;
+      height: auto;
+    }
+  
+    .skill_container > div h2 {
+      font-size: 30px;
+    }
+  
+    .skill_detail h3 {
+      font-size: 18px;
+    }
+  }
+  
+

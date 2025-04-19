@@ -1,0 +1,102 @@
+.logo {
+  font-size: 35px;
+  background: linear-gradient(120deg, #ff6a00, #ee0979);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Base navbar layout */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  position: relative;
+  z-index: 100;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  transition: 0.2s;
+  border-bottom: 3px solid #ee0979;
+}
+
+.nav-connect {
+  padding: 15px 23px;
+  border-radius: 50px;
+  background: linear-gradient(120deg, #ff6a00, #ee0979);
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-connect a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive styles for screens below 768px */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1100;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 60px; /* So it's below the hamburger */
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-connect {
+    display: none;
+  }
+
+  .nav-menu li a {
+    font-size: 18px;
+    text-align: left;
+  }
+}
