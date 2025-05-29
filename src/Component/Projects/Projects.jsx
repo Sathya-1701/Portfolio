@@ -3,6 +3,8 @@ import "./Projects.css";
 import img1 from "../../assets/proj.jpg";
 import img2 from "../../assets/img2.jpeg";
 import img3 from "../../assets/img3.jpeg";
+import img4 from "../../assets/img4.jpg";
+import img5 from "../../assets/img5.jpeg";
 
 const data = [
   {
@@ -23,6 +25,18 @@ const data = [
     id: 3,
     image: img3,
     title: "SnapShare – Social Image Gallery",
+    github: "https://github.com/Sathya-1701",
+  },
+  {
+    id: 3,
+    image: img4,
+    title: "Blog-application-full stack ",
+    github: "https://github.com/Sathya-1701",
+  },
+  {
+    id: 3,
+    image: img5,
+    title: "GreenPlates-React",
     github: "https://github.com/Sathya-1701",
   },
 ];
