@@ -18,7 +18,7 @@ const data = [
     title: "Portfolio",
     github: "https://github.com/Sathya-1701/Portfolio",
   },
-  
+
   {
     id: 3,
     image: img3,
@@ -29,7 +29,7 @@ const data = [
 
 const Projects = () => {
   return (
-    <div className="project">
+    <div id="projects" className="project">
       <h4>Projects</h4>
       <div className="project_container">
         {data.map(({ id, image, title, github }) => {
@@ -43,13 +43,13 @@ const Projects = () => {
                 <a href={github} className="btn" target="_blank">
                   <button>Github</button>
                 </a>
-                <a
+                {/*<a
                   href="https://dribble.com/Alen_pixels"
                   className="btn btn-primary"
                   target="_blank"
                 >
                   <button>Live Demo</button>
-                </a>
+                </a>*/}
               </div>
             </article>
           );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import cv from '../../assets/resume.pdf'
+import cv from '../../assets/RESUME.pdf'
 
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="profile">
-        <img className="profile-img" src="/image/profile.jpg" alt="profile" />
+        <img className="profile-img" src="./image/profile.jpg" alt="profile" />
       </div>
       </div>
       </div>
